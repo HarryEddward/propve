@@ -1,0 +1,64 @@
+
+/* FUNCIONES GENERALES */
+
+html{
+    background-color: rgb(248, 195, 255);
+    color: white;
+}
+
+
+
+/* NAVBAR */
+
+.NAVBAR{
+    background-color: white;
+    color: rgb(248, 195, 255);
+}
+.NAVBAR a, .NAVBAR li{
+    text-decoration: none;
+    color: rgb(248, 195, 255);
+}
+
+
+
+/* FUNCIONES ESPECIFICAS */
+
+/* BACKGROUND */
+.BK-p{  background-color: rgb(248, 195, 255);   }
+.BK-w{  background-color: white;    }
+
+/* TEXT */
+.TX-w{  color: white;   }
+.TX-p{  color: rgb(248, 195, 255);  }
+
+/* BORDER */
+.BRT-w{  border-top: 1px solid white;  }
+.BRR-w{  border-right: 1px solid white;  }
+.BRB-w{  border-bottom: 1px solid white;  }
+.BRL-w{  border-left: 1px solid white;  }
+.BRT-p{  border-top: 1px solid rgb(248, 195, 255);  }
+.BRR-p{  border-right: 1px solid rgb(248, 195, 255);  }
+.BRB-p{  border-bottom: 1px solid rgb(248, 195, 255);  }
+.BRL-p{  border-left: 1px solid rgb(248, 195, 255);  } 
+
+
+
+
+/* BUTTON */
+.BUTTON{
+    background-color: white;
+    outline: 1px solid rgb(248, 195, 255);
+    color: rgb(248, 195, 255);
+}
+.BUTTON.active{
+    outline: white;
+    color: white;
+}
+:not(.BUTTON-check)+.BUTTON:active{
+    color: white;
+    outline: 1px solid white;
+}
+:not(.BUTTON-check)+.BUTTON:hover{
+    color: white;
+    outline: 1px solid white;
+}
